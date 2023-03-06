@@ -1,3 +1,4 @@
+-- Active: 1677474349402@@127.0.0.1@3306@employees
 /*  책대여점 데이터베이스 실습 */
 -- 1. divtbl
 SELECT *
@@ -28,9 +29,9 @@ SELECT b.Author AS '저자명'
 
 -- 회원을 봅시다
 SELECT m.NAMES AS '회원명'
-      ,j.Levels AS '등급'
-      ,m.Addr AS '주소'
-      , SUBSTRING_INDEX(m.Email,'@', as m.Eamil AS 연락처
+      , m.Levels AS '등급'
+      , m.Addr AS '주소'
+      , SUBSTRING_INDEX(m.Email,'@', as m.Eamil) AS 연락처
       , m.Email AS '이메일'
     FMOM MEMbertabl AS m
     ORDER BY m.Names ASC;
