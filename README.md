@@ -1,10 +1,11 @@
 # iot-database2023
 IoT 개발자과정 데이터베이스 - MySQL
 
-![MySQL]https://github.com/kwak-ji-eun/iot-database2023/blob/main/Day05/images/mysql.png
+![MySQL](https://github.com/kwak-ji-eun/iot-database2023/blob/main/Day05/images/mysql.png)
 
 # 1일차
 1. MySQL 학습
+
     - 데이터베이스 개요
     - MySQL 설치/설정
     - Sample DB 설치
